@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Patrik Roos">
+    <meta name="description" content="View a shared text-image">
+    <meta property="og:image" content="https://www.text-image.com/resources/btn-html.jpg">
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>О как :: Share</title>
+    <link rel="stylesheet" type="text/css" href="https://www.text-image.com/resources/style.css">
+    <style>
+        body {
+            background-color: gray;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .tiview {
+            width: 90%;
+            max-width: 600px;
+            background-color: #000;
+            padding: 10px;
+            border-radius: 8px;
+            overflow: auto;
+            margin-bottom: 20px;
+            text-align: center; 
+        }
+
+        #tiresult {
+            font-size: 9px;
+            font-weight: bold;
+            line-height: 1.2;
+        }
+
+        .photo {
+            width: 100%;  
+            height: auto; 
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .small {
+            margin: 10px 0;
+            color: white;
+            text-align: center;
+        }
+
+        .tilink {
+            font-size: 24px;
+            text-align: center;
+        }
+
+        footer {
+            margin-top: 20px;
+            color: white;
+            text-align: center;
+        }
+
+        a {
+            color: #FFD700; 
+            text-decoration: none;
+        }
+
+        @media (max-width: 600px) {
+            #tiresult {
+                font-size: 8px; 
+            }
+
+            .tilink {
+                font-size: 20px; 
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="tiview">
+        <!-- IMAGE BEGINS HERE -->
+        <img class="photo" src="https://yapx.ru/album/ZQCZc" alt="Описание изображения"> <!-- Замените "URL_ВАШЕГО_ИЗОБРАЖЕНИЯ" на фактическую ссылку на фото -->
+        <pre id="tiresult">
+            <b style=color:#B4B5AE>Автор епта</b><b style=color:#B4B5AF> </b><b style=color:#FF0000>Tema</b>...
+            <!-- продолжение ваших данных -->
+        </pre>
+        <!-- IMAGE ENDS HERE -->
+    </div>
+
+    <div class="small">(Вот она та самая красавица &#10084; &#10084; &#10084;)</div>
+
+    <p class="tilink">
+        <a href="https://vk.com/kloynada_kakaeto">Ну ты жмакни и посмотри&#128540; &#128525;<span style="white-space: nowrap;"></span></a>
+    </p>
+
+    <footer>
+        Shared by a user | <a href="https://vk.com/king_04pk">Толик Щепень</a>
+    </footer>
+</body>
+</html>
